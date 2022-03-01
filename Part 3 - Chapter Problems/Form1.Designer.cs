@@ -33,10 +33,10 @@
             this.lblAgeVariable = new System.Windows.Forms.Label();
             this.lblHeightVariable = new System.Windows.Forms.Label();
             this.txtNameInput = new System.Windows.Forms.TextBox();
-            this.txtAgeInput = new System.Windows.Forms.TextBox();
-            this.txtHeightInput = new System.Windows.Forms.TextBox();
             this.btnOutput = new System.Windows.Forms.Button();
             this.lblOutput = new System.Windows.Forms.Label();
+            this.txtHeightInput = new System.Windows.Forms.TextBox();
+            this.txtAgeInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblWelcome
@@ -83,22 +83,6 @@
             this.txtNameInput.TabIndex = 4;
             this.txtNameInput.TextChanged += new System.EventHandler(this.txtNameInput_TextChanged);
             // 
-            // txtAgeInput
-            // 
-            this.txtAgeInput.Location = new System.Drawing.Point(124, 70);
-            this.txtAgeInput.Name = "txtAgeInput";
-            this.txtAgeInput.Size = new System.Drawing.Size(193, 20);
-            this.txtAgeInput.TabIndex = 5;
-            this.txtAgeInput.TextChanged += new System.EventHandler(this.txtAgeInput_TextChanged);
-            // 
-            // txtHeightInput
-            // 
-            this.txtHeightInput.Location = new System.Drawing.Point(124, 102);
-            this.txtHeightInput.Name = "txtHeightInput";
-            this.txtHeightInput.Size = new System.Drawing.Size(193, 20);
-            this.txtHeightInput.TabIndex = 6;
-            this.txtHeightInput.TextChanged += new System.EventHandler(this.txtHeightInput_TextChanged);
-            // 
             // btnOutput
             // 
             this.btnOutput.Location = new System.Drawing.Point(61, 128);
@@ -116,6 +100,22 @@
             this.lblOutput.Size = new System.Drawing.Size(368, 81);
             this.lblOutput.TabIndex = 8;
             this.lblOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtHeightInput
+            // 
+            this.txtHeightInput.Location = new System.Drawing.Point(124, 102);
+            this.txtHeightInput.Name = "txtHeightInput";
+            this.txtHeightInput.Size = new System.Drawing.Size(193, 20);
+            this.txtHeightInput.TabIndex = 6;
+            this.txtHeightInput.TextChanged += new System.EventHandler(this.txtHeightInput_TextChanged);
+            // 
+            // txtAgeInput
+            // 
+            this.txtAgeInput.Location = new System.Drawing.Point(124, 70);
+            this.txtAgeInput.Name = "txtAgeInput";
+            this.txtAgeInput.Size = new System.Drawing.Size(193, 20);
+            this.txtAgeInput.TabIndex = 5;
+            this.txtAgeInput.TextChanged += new System.EventHandler(this.txtAgeInput_TextChanged);
             // 
             // BasicInput
             // 
@@ -145,10 +145,10 @@
         private System.Windows.Forms.Label lblAgeVariable;
         private System.Windows.Forms.Label lblHeightVariable;
         private System.Windows.Forms.TextBox txtNameInput;
-        private System.Windows.Forms.TextBox txtAgeInput;
-        private System.Windows.Forms.TextBox txtHeightInput;
         private System.Windows.Forms.Button btnOutput;
         private System.Windows.Forms.Label lblOutput;
+        private System.Windows.Forms.TextBox txtHeightInput;
+        private System.Windows.Forms.TextBox txtAgeInput;
     }
 }
 
